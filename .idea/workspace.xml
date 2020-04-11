@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2308fdb-a606-47db-bae1-3ccc75cea730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3Commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/s3Commands.py" afterDir="false" />
     </list>
@@ -32,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/s3Commands.py" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager">
     <configuration name="Aws s3 commands" type="PythonConfigurationType" factoryName="Python">
@@ -67,38 +69,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586639581165</updated>
-      <workItem from="1586639592909" duration="5184000" />
+      <workItem from="1586639592909" duration="6757000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating buckets, listando, upload files e acessing buckets.">
+      <created>1586645484796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586645484796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating buckets, listando, upload files e acessing buckets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating buckets, listando, upload files e acessing buckets." />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586641018308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="323" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586641018308" />
+    <state x="561" y="118" width="788" height="797" key="CommitChangelistDialog2" timestamp="1586645484705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="118" width="788" height="797" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586645484705" />
     <state x="648" y="276" width="424" height="479" key="FileChooserDialogImpl" timestamp="1586641014745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="648" y="276" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586641014745" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1586645395167">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1586646773759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586645395167" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1586645395166">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586646773759" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1586646773759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586645395166" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1586645395166">
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586646773759" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1586646773759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586645395166" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1586645395167">
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586646773759" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1586646773759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586645395167" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586646773759" />
     <state width="1358" height="325" key="GridCell.Tab.1.bottom" timestamp="1586641357713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -115,12 +133,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1358" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586641357713" />
-    <state x="1081" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586641878122">
+    <state x="464" y="154" key="SettingsEditor" timestamp="1586645560168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1081" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586641878122" />
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586645560168" />
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1586645486787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586645486787" />
+    <state x="1081" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586645557832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1081" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586645557832" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aws_services$Aws_s3_commands.coverage" NAME="Aws s3 commands Coverage Results" MODIFIED="1586645395159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aws_services$Aws_s3_commands.coverage" NAME="Aws s3 commands Coverage Results" MODIFIED="1586646773747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

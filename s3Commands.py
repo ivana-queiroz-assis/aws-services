@@ -26,4 +26,39 @@ def accessing_bucket():
         if error_code == 404:
             print('Não existe bucket!!!')
             exists = False
-accessing_bucket()
+
+def deleting_keys_and_bucket():
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket('ivana-ptyhon-bucket2')
+    for key in bucket.objects.all():
+        print('Deletando o arquivo: ' + str(key))
+        key.delete()
+    print('Now i can delete the bucket: ' + str(bucket.name))
+    bucket.delete()
+
+def iteration_keys_buckets():
+    s3 = boto3.resource('s3')
+    for bucket in s3.buckets.all():
+        for key in bucket.objects.all():
+            print(key.key)
+def get_access_control_list():
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket('elasticbeanstalk-us-east-1-831368754098')
+    acl = bucket.Acl()
+    for grant in acl.grants:
+        print(str(grant))
+def manage_cors_bucket():
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket('s3-lifecycle-ivana')
+    cors = bucket.Cors()
+    config = {
+        'CORSRules': [
+            {
+                'AllowedMethods': ['GET'],
+                'AllowedOrigins': ['*']
+            }
+        ]
+    }
+    cors.put(CORSConfiguration=config)
+    cors.delete()
+manage_cors_bucket()
